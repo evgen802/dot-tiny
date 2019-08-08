@@ -22,7 +22,7 @@ alias path='echo -e ${PATH//:/\\n}'
 alias l="ls -C --group-directories-first"
 
 ## Show files with a long listing format
-alias ll="ls -la -C --group-directories-first"
+alias ll="ls -la --group-directories-first"
 
 ## Show hidden files
 alias l.="ls -a -C --group-directories-first"
